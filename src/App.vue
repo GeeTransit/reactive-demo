@@ -9,7 +9,7 @@ let count = ref(0);
 
 		<nav>
 		<ul class="top-nav">
-			<li><a href="./">Homepage</a></li>
+			<li><a href="https://cs.torontomu.ca/">Homepage</a></li>
 		</ul>
 		</nav>
 	</header>
@@ -59,6 +59,8 @@ let count = ref(0);
 			<p>I had some difficulty getting the counter to work right. Initially, I followed the example and made the counter take in a prop from the app but I got an error saying that the prop was readonly. I then looked at another example and it used data instead of prop. I switched it out and it worked perfectly. I had a few typos too (v-bind instead of v-on and onclick instead of click) but they were relatively easy to fix.</p>
 
 			<p>I wanted to have a <cite>lab10c.html</cite> in my site (which would be the same as <cite>index.html</cite>) but it was very difficult to find resources on how to do that. VueJS was designed mostly for single page applications (SPA) where all the logic is in one page, reducing the amount of times a complex web application needs to fetch sites from the server. Eventually, I found a <a href="https://stackoverflow.com/questions/65868976/how-to-build-a-multi-pages-application-by-vite2-and-vue3/65884056#65884056">Stack Overflow answer on how to build multiple files</a> which involved configuring RollupJS and that did the trick.</p>
+
+			<p>Deploying didn't come without surprises too. Because I was using Github Pages to host the site, the path was at <cite>/reactive-demo/lab10c.html</cite>, not <cite>/lab10c.html</cite>. I had to change a few paths and update the Vite configuration to output relative paths.</p>
 		</section>
 	</article>
 	</main>
