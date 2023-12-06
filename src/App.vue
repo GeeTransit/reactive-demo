@@ -9,7 +9,7 @@ let count = ref(0);
 
 		<nav>
 		<ul class="top-nav">
-			<li><a href="https://cs.torontomu.ca/">Homepage</a></li>
+			<li><a href="https://cs.torontomu.ca/~gszhang/">Homepage</a></li>
 		</ul>
 		</nav>
 	</header>
@@ -23,7 +23,7 @@ let count = ref(0);
 		<ul class="nav">
 			<li><a href="#demo">Reactive Counter Demo</a></li>
 			<li><a href="#installation">Installation</a></li>
-			<li><a href="#design">Build</a></li>
+			<li><a href="#build">Build</a></li>
 			<li><a href="#difficulties">Difficulties</a></li>
 		</ul>
 	</details>
