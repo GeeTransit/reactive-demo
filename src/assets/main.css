@@ -1,0 +1,15 @@
+#app {
+	margin: 0 auto;
+	padding: 0 1rem;
+	max-width: 80ch;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+ul {
+	margin-top: 0;
+}
+
+code {
+	font-size: 80%;
+}
